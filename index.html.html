@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Jazney's Journal - Exploring Life One Post at a Time">
+<meta name="keywords" content="blog, travel, lifestyle, personal journal, Jazney Faith Tuyor">
+<meta name="author" content="Jazney Faith Tuyor">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+    background-color: #ffcccb;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #add8e6;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create two unequal columns that float next to each other */
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #d3f8d3;
+    padding-left: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: #f9f9a0;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ffa07a;
+    margin-top: 20px;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Jazney's Journal</h1>
+    <p>Exploring Life One Post at a Time</p>
+</div>
+
+<div class="topnav">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <a href="#" style="float:right">Login</a>
+</div>
+
+<div class="row">
+    <div class="leftcolumn">
+        <div class="card">
+            <h2>First Post</h2>
+            <h5>Title description, Dec 7, 2017</h5>
+            <img src="https://assets.weforum.org/article/image/XJkVQrA6uy9CVqo_9e3DMLlKvkOHcr8wPO4RbDhbsfc.jpg" alt="Post Image" style="width:100%; height:200px;">
+            <p>See you soon Boracay!</p>
+        </div>
+        <div class="card">
+            <h2>Second Post</h2>
+            <h5>Title description, Dec 11, 2017</h5>
+            <img src="https://www.ambong-ambong.com/wp-content/uploads/2023/03/istockphoto-1172427455-612x612-1.jpeg" alt="Post Image" style="width:100%; height:200px;">
+            <p>Loving the view.</p>
+        </div>
+    </div>
+    <div class="rightcolumn">
+        <div class="card">
+            <h2>About Me</h2>
+            <img src="https://p1.pxfuel.com/preview/990/319/634/woman-girl-lady-people.jpg" alt="About Me Image" style="width:100%; height:100px;">
+            <p>16<br>she/her<br>Philippines</p>
+        </div>
+        <div class="card">
+            <h3>Popular Posts</h3>
+            <img src="https://media.post.rvohealth.io/wp-content/uploads/sites/3/2020/02/322868_1100-732x549.jpg" alt="Popular Post" style="width:100%; height:100px;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV823ilZmkj1CM0HyitYFOm1651ev-OEZZ2LDu35uX6kfGbQR_P7leUMwTG30KWET8GCA&usqp=CAU" alt="Popular Post" style="width:100%; height:100px;">
+            <img src="https://www.ambong-ambong.com/wp-content/uploads/2023/03/istockphoto-1172427455-612x612-1.jpeg" alt="Popular Post" style="width:100%; height:100px;">
+        </div>
+        <div class="card">
+            <h3>Follow Me</h3>
+            <p>Facebook: Jazney Faith Tuyor<br>Instagram:@j_fithh</p>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <h2>© 2025 Jazney Faith Tuyor. All Rights Reserved.</h2>
+    <p>Follow me on Instagram: <a href="https://www.instagram.com/j_fithh" target="_blank">@j_fithh</a></p>
+    <p>Thanks for visiting! Come back soon.</p>
+</div>
+
+</body>
+</html>
